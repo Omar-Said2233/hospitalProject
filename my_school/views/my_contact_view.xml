@@ -1,0 +1,38 @@
+<odoo>
+  <record model="ir.ui.view" id="my_contact_view">
+    <field name="name">my.contact.view</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form" />
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='vat']" position="after">
+        <field name="my_note" string="My Note" />
+      </xpath>
+      <xpath expr="//group[@name='sale']" position="inside">
+        <field name="my_phone_nubmer" string="My phone" />
+      </xpath>
+
+        <!--      mobile-->
+        <!--      لجعل رقم الموبايل ضروري -->
+
+      <xpath expr="//field[@name='mobile']" position="attributes">
+        <attribute name="required">1</attribute>
+      </xpath>
+
+          <!--      لعمل اسم للجروب -->
+      <xpath expr="//form//sheet//group[1]//group[2]" position="attributes">
+        <attribute name="string">group nubmer two</attribute>
+      </xpath>
+    </field>
+  </record>
+  <!--لعمل تعديل في tree-->
+  <record model="ir.ui.view" id="my_contact_tree">
+    <field name="name">my.contact.tree</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_tree" />
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='phone']" position="after">
+        <field name="my_note" string="My Note" />
+      </xpath>
+    </field>
+  </record>
+</odoo>

@@ -1,0 +1,36 @@
+<odoo>
+    <record id="my_school_report" model="ir.actions.report">
+        <field name="name">Print Report</field>
+        <field name="model">my.school</field>
+        <field name="report_type">qweb-html</field>
+        <field name="report_name">my_school.report_view</field>
+        <field name="report_file">my_school.report_view</field>
+        <field name="binding_model_id" ref="model_my_school"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <template id="my_school.report_view">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="my">
+<!--                 في حالة ظهور اللوجو يكتب-->
+<!--                <t t-call="web.external_layout">-->
+                <t t-call="web.internal_layout">
+                    <div class="page">
+                        <h1>Omar said report</h1>
+                        <p>
+                            name
+                            <span t-field="my.name" />
+                        </p>
+                        <p>
+                            age
+                            <span t-field="my.value" />
+                        </p>
+                    </div>
+
+                </t>
+
+            </t>
+        </t>
+
+    </template>
+</odoo>

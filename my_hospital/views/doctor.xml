@@ -1,0 +1,75 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<odoo>-->
+<!--    <record id="view_users_form_inherit" model="ir.ui.view">-->
+<!--        <field name="name">res.users.form.inherit</field>-->
+<!--        <field name="model">res.users</field>-->
+<!--        <field name="inherit_id" ref="base.view_users_form"/>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <xpath expr="//page[@name='access_rights']" position="inside">-->
+<!--                <group name="my_hospital_group" string="Doctor Settings">-->
+<!--                    <field name="is_doctor"/>-->
+<!--                </group>-->
+<!--            </xpath>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    <record id="view.users_simple_form" model="ir.ui.view">-->
+<!--        <field name="name">base.view.users.simple</field>-->
+<!--        <field name="model">res.users</field>-->
+<!--        <field name="inherit_id" ref="base.view_users_simple_form"/>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <xpath expr="//field[@name='mobile']" position="after">-->
+<!--                <field name="is_doctor"/>-->
+<!--            </xpath>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    <record id="my_hospital.action_window" model="ir.actions.act_window" >-->
+<!--        <field name="name">doctors</field>-->
+<!--        <field name="res_model">res.users</field>-->
+<!--        <field name="view_mode">tree,form,kanban</field>-->
+<!--        <field name="domain">[('is_doctor','=',True)]</field>-->
+<!--        <field name="help" type="html">-->
+<!--            <p class="o_view_nocontent_smiling_face">-->
+<!--                Add new doctor..-->
+<!--            </p>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    <menuitem id="hospital_doctor" name="Doctors" parent="hospital_root" action="my_hospital.action_window" sequence="1" />-->
+<!--</odoo>-->
+
+
+<odoo>
+    <record id="view_users_form_inherit" model="ir.ui.view">
+        <field name="name">res.users.form.inherit</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='access_rights']" position="inside">
+                <group name="my_hospital_group" string="Doctors Settings">
+                    <field name="is_doctor"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+    <record id="view_users_simple_form_inherit" model="ir.ui.view">
+        <field name="name">base.view.users.simple.form.inherit</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_simple_form"/>
+        <field name="arch" type="xml">
+        <xpath expr="//field[@name='mobile']" position="after">
+            <field name="is_doctor"/>
+        </xpath>
+        </field>
+    </record>
+    <record id="my_hospital.action_doctors" model="ir.actions.act_window">
+        <field name="name">doctors</field>
+        <field name="res_model">res.users</field>
+        <field name="view_mode">tree,form,kanban</field>
+        <field name="domain">[('is_doctor', '=', True)]</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face"> Add new doctor.. </p>
+        </field>
+    </record>
+</odoo>

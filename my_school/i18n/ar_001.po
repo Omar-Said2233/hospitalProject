@@ -1,0 +1,498 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* my_school
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-07 10:25+0000\n"
+"PO-Revision-Date: 2024-12-07 10:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: my_school
+#: model:ir.ui.menu,name:my_school.menu_1
+msgid "Abdallah"
+msgstr "عبدالله"
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.form
+#: model_terms:ir.ui.view,arch_db:my_school.my_order_form
+msgid "Action"
+msgstr "اكشن"
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__binary
+msgid "Binary"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__computed
+msgid "Computed"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model,name:my_school.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order__create_uid
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__create_uid
+#: model:ir.model.fields,field_description:my_school.field_my_school__create_uid
+msgid "Created by"
+msgstr "بواسطة"
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order__create_date
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__create_date
+#: model:ir.model.fields,field_description:my_school.field_my_school__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__data
+msgid "Data"
+msgstr "التاريخ"
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__data_time
+msgid "Data Time"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__Date
+msgid "Date"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order__display_name
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__display_name
+#: model:ir.model.fields,field_description:my_school.field_my_school__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields.selection,name:my_school.selection__my_school__state__expired
+#: model_terms:ir.ui.view,arch_db:my_school.form
+msgid "Expired"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,help:my_school.field_my_school__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__html
+msgid "Html"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order__id
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__id
+#: model:ir.model.fields,field_description:my_school.field_my_school__id
+msgid "ID"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,help:my_school.field_my_school__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,help:my_school.field_my_school__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,help:my_school.field_my_school__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order__item_ids
+msgid "Item"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order____last_update
+#: model:ir.model.fields,field_description:my_school.field_my_order_item____last_update
+#: model:ir.model.fields,field_description:my_school.field_my_school____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order__write_uid
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__write_uid
+#: model:ir.model.fields,field_description:my_school.field_my_school__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order__write_date
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__write_date
+#: model:ir.model.fields,field_description:my_school.field_my_school__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: my_school
+#: model:ir.ui.menu,name:my_school.menu_2
+msgid "Mawada"
+msgstr "موده"
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_res_partner__my_note
+#: model:ir.model.fields,field_description:my_school.field_res_users__my_note
+#: model_terms:ir.ui.view,arch_db:my_school.my_contact_tree
+#: model_terms:ir.ui.view,arch_db:my_school.my_contact_view
+msgid "My Note"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_res_partner__my_phone_nubmer
+#: model:ir.model.fields,field_description:my_school.field_res_users__my_phone_nubmer
+msgid "My Phone Nubmer"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.my_contact_view
+msgid "My phone"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order__name
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__name
+#: model:ir.model.fields,field_description:my_school.field_my_school__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: my_school
+#: model:ir.model.fields.selection,name:my_school.selection__my_school__state__new
+msgid "New"
+msgstr "جديد"
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,help:my_school.field_my_school__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,help:my_school.field_my_school__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields.selection,name:my_school.selection__my_school__state__old
+#: model_terms:ir.ui.view,arch_db:my_school.form
+msgid "Old"
+msgstr "قديم"
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.report_view
+msgid "Omar said report"
+msgstr "عمر سيد تقرير"
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__order_id
+#: model:ir.ui.menu,name:my_school.menu_1_list
+msgid "Order"
+msgstr "طلبات"
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_order_item__price
+msgid "Price"
+msgstr "سعر"
+
+#. module: my_school
+#: model:ir.actions.report,name:my_school.my_school_report
+msgid "Print Report"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.form
+msgid "Reset to New"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__select
+msgid "Select"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__state
+msgid "Status"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,help:my_school.field_my_school__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__trueFalse
+msgid "Truefalse"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,help:my_school.field_my_school__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields.selection,name:my_school.selection__my_school__state__used
+msgid "Used"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__call1
+msgid "Vall 1"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__call2
+msgid "Vall 2"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields.selection,name:my_school.selection__my_school__select__1
+msgid "Vall1"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields.selection,name:my_school.selection__my_school__select__2
+msgid "Vall2"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields.selection,name:my_school.selection__my_school__select__3
+msgid "Vall3"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__value
+msgid "Value"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__value2
+msgid "Value2"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.report_view
+msgid "age"
+msgstr ""
+
+#. module: my_school
+#. odoo-python
+#: code:addons/my_school/models/models.py:0
+#, python-format
+msgid "age must between 25 and 35"
+msgstr "يجب أن يكون السن بين 25 و 35 سنة"
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.form
+msgid "enter name"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.form
+msgid "go the Used"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.my_contact_view
+msgid "group nubmer two"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.form
+msgid "hay"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.form
+msgid "html"
+msgstr ""
+
+#. module: my_school
+#: model:ir.ui.menu,name:my_school.my_school_am_menu_1
+msgid "item"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.form
+msgid "my form"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.my_order_form
+msgid "my order"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model,name:my_school.model_my_order
+msgid "my.order"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model,name:my_school.model_my_order_item
+msgid "my.order.item"
+msgstr ""
+
+#. module: my_school
+#: model:ir.actions.act_window,name:my_school.action_window_2
+msgid "my_Order"
+msgstr ""
+
+#. module: my_school
+#: model:ir.actions.act_window,name:my_school.action_window_3
+msgid "my_item"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model,name:my_school.model_my_school
+#: model:ir.ui.menu,name:my_school.menu_root
+msgid "my_school"
+msgstr "مدرستي"
+
+#. module: my_school
+#: model:ir.actions.act_window,name:my_school.action_window
+msgid "my_school "
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.report_view
+msgid "name"
+msgstr ""
+
+#. module: my_school
+#: model:ir.model.fields,field_description:my_school.field_my_school__result
+msgid "vall 1 + vall 2"
+msgstr ""
+
+#. module: my_school
+#: model_terms:ir.ui.view,arch_db:my_school.form
+#: model_terms:ir.ui.view,arch_db:my_school.list
+msgid "value2"
+msgstr ""

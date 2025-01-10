@@ -1,0 +1,33 @@
+<odoo>
+    <menuitem
+        id="todo_root_menu"
+        name="To Do"
+    />
+    <menuitem
+        id="todo_menu"
+        name="To Do"
+        parent="todo_root_menu"
+    />
+</odoo>
+
+<!--<odoo>-->
+<!--    <data>-->
+
+<!--          <record id="todo_action" model="ir.actions.act_window">-->
+<!--             <field name="name">ToDo Task</field>-->
+<!--             <field name="res_model">todo.task</field>-->
+<!--           -->
+<!--          </record>-->
+
+<!--        <menuitem name="Omar_sayed" id="Omar_said_menu_root" />-->
+
+<!--        <menuitem name="abdallah" id="adballah_menu" parent="Omar_said_menu_root"-->
+<!--                  action="todo_action"/>-->
+<!--        <menuitem name="Mawada" id="mawada_menu" parent="Omar_said_menu_root" />-->
+
+<!--        <menuitem name="todo_action" id="mawada_menu" parent="Omar_said_menu_root"-->
+<!--                  action="todo_action" />-->
+
+
+<!--    </data>-->
+<!--</odoo>-->
